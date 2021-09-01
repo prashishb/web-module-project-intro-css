@@ -152,7 +152,7 @@ nav a {
 
 .left img {
     border-radius: 50%;
-    width: 50vmin;
+    width: 45vmin;
 }
 
 .right {
@@ -162,7 +162,7 @@ nav a {
 
 .right div {
     position: absolute;
-    top: 40%;
+    top: 25%;
 }
 
 .right div p {
@@ -175,7 +175,7 @@ nav a {
 .box-text {
     background-color: #DDB9A3;
     margin: 0 auto;
-    width: 86%;
+    width: 80%;
     padding: 1%;
 }
 
