@@ -76,6 +76,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    margin: 3%;
 }
 
 a {
@@ -124,6 +125,11 @@ nav a {
 .yellow {
     background-color: #FFCD69;
     margin-right: 10%;
+}
+
+.btn:hover {
+    filter: brightness(1.1);
+    transform: scale(1.03);
 }
 
 /* Titles section style */
