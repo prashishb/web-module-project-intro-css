@@ -1,0 +1,219 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/* remember to define focus styles! */
+
+:focus {
+	outline: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/* tables still need cellspacing="0" in the markup */
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+
+/* remove possible quote marks (") from <q> & <blockquote> */
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+/* End CSS Reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* border: 1px solid grey; */
+}
+
+/* General Styles */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4F4F4F;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 7rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 3%;
+}
+
+a {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1%;
+}
+
+section {
+    padding: 4% 0;
+}
+
+/* header section styles */
+
+nav {
+    padding: 2% 0;
+    margin: 0 10%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10%;
+    text-align: center;
+    color: white;
+}
+
+.orange {
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+
+.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+
+.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+.btn:hover {
+    filter: brightness(1.1);
+    transform: scale(1.03);
+}
+
+/* Titles section style */
+
+.titles {
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    position: relative;
+}
+
+.left, .right {
+    display: inline-block;
+}
+
+.left {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.left img {
+    border-radius: 50%;
+    width: 45vmin;
+}
+
+.right {
+    width: 55%;
+    margin-left: 5%;
+}
+
+.right div {
+    position: absolute;
+    top: 25%;
+}
+
+.right div p {
+    font-size: 2rem;
+    margin: 3%;
+}
+
+/* Box text styles */
+
+.box-text {
+    background-color: #DDB9A3;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1%;
+}
+
+.box-text p {
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/* Body content styles */
+
+.body-container {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 20vmin;
+    margin: 0 auto;
+}
+
+.body-content p {
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+/* Footer styling */
+
+#footer-img {
+    background-image: url(assets/footer_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+    padding: 12%;
+}
+
+footer {
+    width: 100%;
+    background-color: #F9E7DC;
+    margin: 0 auto;
+}
