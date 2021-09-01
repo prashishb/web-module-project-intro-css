@@ -187,12 +187,13 @@ nav a {
 }
 
 .icon {
-    width: 30vmin;
+    width: 20vmin;
     margin: 0 auto;
 }
 
 .body-content p {
     text-align: center;
+    margin-bottom: 20%;
 }
 
 /* Footer styling */
